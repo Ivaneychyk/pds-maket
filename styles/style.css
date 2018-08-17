@@ -57,7 +57,7 @@ h1 {
 /* portfolio */
 .holder{
     width:100%;
-    height:555px;
+    height:100%;
     flex-wrap: nowrap;
 	flex-direction: row;
 	display: flex;    
@@ -70,8 +70,8 @@ h1 {
     text-align: center;
     position: absolute;
     width: 100%;
-    height: 305px;
-    top: 250px;
+    height: 65%;
+    top: 35%;
     opacity: 0.8;
     background-color: #00c7fc;
     color: white;
@@ -83,13 +83,6 @@ h1 {
 }
 .block:hover .block-child {
     visibility: visible;
-}
-h5 {
-    text-align: center;
-    margin: 30px auto;
-}
-.animated {
-    margin-bottom: 30px;
 }
 /* services */
 .main-service {
@@ -138,9 +131,8 @@ h4 {
 .flexbox {
     display: flex;
     justify-content: space-between;
-    margin: 115px 75px 150px 120px; 
+    margin: 10%;
 }
-
 /* .contacts */
 .contact-section {
     background-color:#000000;
@@ -156,8 +148,7 @@ h4 {
     margin: 45px auto 65px;
     width: 30px;
     background:#00c7fc;
-    height: 2px;
-    
+    height: 2px;  
 }
 .contacts {
     text-align: center;
@@ -177,7 +168,6 @@ h4 {
 .link-send {
     float: right;
 }
-
 /* footer */
 .main-footer {   
     background-color: #00c7fc;
