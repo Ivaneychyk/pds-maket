@@ -1,6 +1,6 @@
 /* after nav */
-.black {
-    background-color: black;
+.header {
+    background-color: #000000;
 }
 .centered {
     padding-top:250px;
@@ -92,7 +92,7 @@ h5 {
     margin-bottom: 30px;
 }
 /* services */
-.mainService {
+.main-service {
     margin-top: 200px;
 }
 .line {
@@ -110,12 +110,12 @@ h5 {
     text-align: center;
     margin-bottom: 240px;
 }
-.textIn {
+.text-in {
     margin-bottom: 50px;
 }
 
 /* clients */
-.mainClients {
+.main-clients {
     display: block;
     margin: 0 auto;
 }
@@ -127,8 +127,7 @@ h4 {
 .clients {
     text-align: center;
     padding-left: 230px;
-    padding-right: 210px;
-    
+    padding-right: 210px;   
 }
 .layer {
     text-align: center;
@@ -136,7 +135,6 @@ h4 {
     font-size: 15px;
     color:#999999;
 }
-
 .flexbox {
     display: flex;
     justify-content: space-between;
@@ -144,15 +142,16 @@ h4 {
 }
 
 /* .contacts */
-.mainContacts { 
-    border-width:1;
-    border-color:#707070;
-    border-style: solid;
-    height: 615px;
+.contact-section {
+    background-color:#000000;
+}
+.main-contacts { 
+    border: 1px solid #707070;
+    height: 100%;
     padding: 10%;
     background-color: #ffffff;
 }
-.lineNew {
+.line-new {
     display: block;
     margin: 45px auto 65px;
     width: 30px;
@@ -163,7 +162,7 @@ h4 {
 .contacts {
     text-align: center;
     color: #231f20;
-    margin-top:95px; 
+    margin-top:10%; 
 }
 .text-contacts {
     text-align: center;
@@ -180,7 +179,7 @@ h4 {
 }
 
 /* footer */
-.overIt {   
+.main-footer {   
     background-color: #00c7fc;
 }
 .footer {
