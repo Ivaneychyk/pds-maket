@@ -66,6 +66,9 @@ h1 {
     position: relative;
     width: 100%;
 }
+h5 {
+    margin: 10%;
+}
 .block-child {
     text-align: center;
     position: absolute;
